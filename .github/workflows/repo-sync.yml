@@ -2,7 +2,7 @@
 name: A🔄自动同步🔄A
 on:
   schedule:
-    - cron: '0 */1 * * *'
+    - cron: '* * * * *'
   workflow_dispatch:
   watch:
     types: started
